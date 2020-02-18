@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="076ca42d-e670-4abc-9a23-87e825f947e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data4/CountryDataStatisticsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data4/CountryData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data4/CountryData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data4/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Data4/DataReader.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +86,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
