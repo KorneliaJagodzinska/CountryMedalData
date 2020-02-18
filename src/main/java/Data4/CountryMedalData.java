@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
-public class CountryData {
+public class CountryMedalData {
 
     private String countryShortName;
     private int numberOfGoldenMedals;

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="076ca42d-e670-4abc-9a23-87e825f947e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Data4/CountryDataStatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZadanieTXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data4/DataWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data4/CountryData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data4/CountryData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Data4/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Data4/DataReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data4/CountryData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data4/CountryMedalData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data4/CountryDataStatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data4/CountryMedalDataStatisticsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data4/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data4/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data4/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +34,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xi2QvSp8T7FFABbRuHLi1hHfC2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>

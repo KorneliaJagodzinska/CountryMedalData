@@ -1,0 +1,20 @@
+- ściągnij plik data4.txt ze slacka. Napisz program który załaduje z pliku wszystkie dane i przetworzy każdą linijkę kodu na obiekt javowy
+- Jedna linijka reprezentuje: nazwa skrócona kraju (1 kolumna), ilość złotych medali (kolumna 2), ilość srebrnych medali (kolumna3), ilość medali brązowych (4 kolumna), ilość 4 miejsc (5 OPCJONALNA kolumna)
+Następnie napisz klasę która:
+• znajdzie państwa które zdobyły przynajmniej jeden złoty medal
+• znajdzie państwa które zdobyły przynajmniej jeden jakikolwiek medal
+• znajdzie państwo które zdobyło najwięcej złotych medali
+• znajdzie państwo które zdobyło najwięcej medali (w sumie)
+• znajdzie państwo które było najbardziej pechowe (najwięcej 4 miejsc)
+• znajdzie te kraje które zdobyły więcej srebrnych medali od złotych
+• znajdzie kraje które zdobyły więcej brązowych medali od srebrnych i więcej srebrnych od złotych
+• zwróci statystyki (tzn. Map<String, Integer>) ile państ w sumie zdobyło medali
+• znajdzie dominantę złotych medali zdobytych per państwo
+• CD z poprzedniego slajdu:
+• znajdzie kraj który zdobył najwięcej punktów wg następującej punktacji: medal złoty - 3 punkty, medal srebrny - 2 punkty,
+medal brązowy - 1 punkt
+• policzy ilość medali zdobytych przez wszystkie kraje
+• posortuje malejąco obiekty wg ilość zdobytych srebrnych medali
+• napisz klasę która zapisze wszystkie statystyki z powyższych punktów do pliku (w sposób czytelny, np)
+• TotalMedalFromAllCountries: 1543
+• CountriesWithAtLeastOneMedal: POL,USA,URU....

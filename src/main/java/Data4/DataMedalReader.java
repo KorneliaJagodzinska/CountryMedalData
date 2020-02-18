@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class DataReader {
+public class DataMedalReader {
     private static final String Data_Separator = ",";
     private static final int EXPECTED_DATA_LEN = 4;
     private static final int COUNTRY_SHORT_NAME_ELEMENT_POSITION = 0;
@@ -15,7 +15,7 @@ public class DataReader {
     private static final int NUMBER_OF_BROWN_MEDALS_ELEMENT_POSITION = 3;
     private static final int NUMBER_ELEMENT_POSITION = 4;
 
-    public List<CountryData> readDataFromFile(final String path) {
+    public List<CountryMedalData> readDataFromFile(final String path) {
         try {
             return Files.readAllLines(Paths.get(path)).stream()
                     .filter(line -> !line.isEmpty())
@@ -28,17 +28,17 @@ public class DataReader {
         }
     }
     // ta medtoda zamienia tablice Stringów w obiekty klasy CountryData
-    private CountryData toCountryData(final String[] elements){
+    private CountryMedalData toCountryData(final String[] elements){
         if (elements.length < EXPECTED_DATA_LEN) {
             throw new MyException("Incorrect data length");
         }
-        final CountryData countryData = new CountryData();
-        countryData.setCountryShortName(elements[COUNTRY_SHORT_NAME_ELEMENT_POSITION]);
-        countryData.setNumberOfGoldenMedals(Integer.valueOf(elements[NUMBER_OF_GOLDEN_MEDALS_ELEMENT_POSITION]));
-        countryData.setNumberOfSilverMedals(Integer.valueOf(elements[NUMBER_OF_SILVER_MEDALS_ELEMENT_POSITION]));
-        countryData.setNumberOfBrownMedals(Integer.valueOf(elements[NUMBER_OF_BROWN_MEDALS_ELEMENT_POSITION]));
-        countryData.setNumber(Integer.valueOf(elements[NUMBER_ELEMENT_POSITION]));
-        return countryData;
+        final CountryMedalData countryMedalData = new CountryMedalData();
+        countryMedalData.setCountryShortName(elements[COUNTRY_SHORT_NAME_ELEMENT_POSITION]);
+        countryMedalData.setNumberOfGoldenMedals(Integer.valueOf(elements[NUMBER_OF_GOLDEN_MEDALS_ELEMENT_POSITION]));
+        countryMedalData.setNumberOfSilverMedals(Integer.valueOf(elements[NUMBER_OF_SILVER_MEDALS_ELEMENT_POSITION]));
+        countryMedalData.setNumberOfBrownMedals(Integer.valueOf(elements[NUMBER_OF_BROWN_MEDALS_ELEMENT_POSITION]));
+        countryMedalData.setNumber(Integer.valueOf(elements[NUMBER_ELEMENT_POSITION]));
+        return countryMedalData;
 
     }
 }
